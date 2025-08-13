@@ -21,7 +21,7 @@ for tr in table.find_all("tr"):
     cells = [td.get_text(strip=True) for td in tr.find_all(["td", "th"])]
     if cells:
         rows.append(cells)
-with open("almoha.csv", "w", newline="", encoding="utf-8") as f:
+with open("armoha.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerows(rows)
-print("CSV 파일로 저장되었습니다: almoha.csv")
+print("CSV 파일로 저장되었습니다: armoha.csv")
