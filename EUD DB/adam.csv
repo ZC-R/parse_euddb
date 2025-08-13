@@ -1,0 +1,628 @@
+Start,End,Attributes,File,Name,What?,EUD Start
+0x0050CDC0,0x0050CEC1,backed by code,rle.asm,_gbRemapColorTbl,,-128361
+0x0050E064,0x0050E068,simple data,glues.cpp,sgnPrevPalId,,-127168
+0x005124D8,0x005124F4,simple data,gameloop.cpp,sgTicksPerGameTurn?,"Array of 7 longs, from slowest to fastest game speed, containing the milliseconds spent in each frame",-122787
+0x00512678,0x0051267C,backed by code,net_glue.cpp,g_ActiveNationID,Active player ID (same as local nation id in trigger context),-122683
+0x0051267C,0x00512680,backed by code,net_glue.cpp,g_ActiveHumanID,,-122682
+0x00512684,0x00512688,backed by code,net_glue.cpp,g_LocalNationID,Client's player ID,-122680
+0x00512688,0x0051268C,backed by code,net_glue.cpp,g_LocalHumanID,,-122679
+0x00512708,0x00512754,backed by code,cursor.cpp,sgCursorFiles,Pointers to each cursor GRP,-122647
+0x005128F8,0x00512998,backed by code,light.cpp,gColorShifts,,-122523
+0x00513B68,0x00513B99,simple data,scroll.cpp,sgnScrollRates,,-121343
+0x00514178,0x005145BA,simple data,TechTree.cpp,sgTree,Unit requirements,-120955
+0x005145BC,0x005145C0,simple data,TechTree.cpp,scratch,sgTree extension,-120682
+0x005145C0,0x00514906,simple data,Allowed.cpp,sgUpgradeTree,Upgrade requirements,-120681
+0x00514908,0x00514A46,simple data,Allowed.cpp,sgResearchTree,Research requirements,-120471
+0x00514A48,0x00514CF8,simple data,Allowed.cpp,sgTechUseTree,Tech use requirements,-120391
+0x00514CF8,0x0051521C,simple data,Allowed.cpp,sgOrderTree,Order issuing requirements,-120219
+0x0051521C,0x00515224,backed by code,statport.cpp,,"gwRacePort_g, portrait ID for each race's advisor",-119890
+0x005152A8,0x005152FC,backed by code,statfluf.cpp,sgZergDlgs,,-119855
+0x005152FC,0x00515300,simple data,statfluf.cpp,scratch,,-119834
+0x00515300,0x00515348,backed by code,statfluf.cpp,sgTerranDlgs,,-119833
+0x00515348,0x00515384,backed by code,statfluf.cpp,sgProtossDlgs,,-119815
+0x00515384,0x00515388,simple data,statfluf.cpp,scratch,,-119800
+0x00515388,0x005153E8,backed by code,statfluf.cpp,sgNeutralDlgs,,-119799
+0x00515AF8,0x00515B08,simple data,sai_ContoursCreate.cpp,EdgesToFace,Something from sai_ContoursCreate,-119323
+0x00515B08,0x00515B18,simple data,sai_ContoursCreate.cpp,EdgesToTurn,Something from sai_ContoursCreate,-119319
+0x00515B18,0x00515B38,simple data,sai_ContoursCreate.cpp,ContourStarts,Something from sai_ContoursCreate,-119315
+0x00515B38,0x00515B58,simple data,sai_ContoursCreate.cpp,ContourEnds,Something from sai_ContoursCreate,-119307
+0x00515B58,0x00515B60,simple data,sai_ContoursCreate.cpp,MapIncs,Something from sai_ContoursCreate,-119299
+0x00515B60,0x00515B68,simple data,sai_ContoursCreate.cpp,MapSteps,Something from sai_ContoursCreate,-119297
+0x00515B68,0x00515B70,simple data,sai_ContoursCreate.cpp,MapHops,Something from sai_ContoursCreate,-119295
+0x00515B70,0x00515BE8,simple data,damage.cpp,sgnPercent,"Weapon type multipliers, against each unit size type",-119293
+0x00515BE8,0x00515BEC,backed by code,statcmd.cpp,,Buttonset Info,-119263
+0x00515BE8,0x00515C24,backed by code,statcmd.cpp,,Buttonset Info,-119263
+0x00515C24,0x00515C28,backed by code,statcmd.cpp,,Buttonset Info,-119248
+0x00515C24,0x00515C60,backed by code,statcmd.cpp,,Buttonset Info,-119248
+0x00515C60,0x00515C64,backed by code,statcmd.cpp,,Buttonset Info,-119233
+0x00515C60,0x00515C74,backed by code,statcmd.cpp,,Buttonset Info,-119233
+0x00515C74,0x00515C78,backed by code,statcmd.cpp,,Buttonset Info,-119228
+0x00515C74,0x00515C88,backed by code,statcmd.cpp,,Buttonset Info,-119228
+0x00515C88,0x00515C8C,backed by code,statcmd.cpp,,Buttonset Info,-119223
+0x00515C88,0x00515C9C,backed by code,statcmd.cpp,,Buttonset Info,-119223
+0x00515C9C,0x00515CA0,backed by code,statcmd.cpp,,Buttonset Info,-119218
+0x00515C9C,0x00515CC4,backed by code,statcmd.cpp,,Buttonset Info,-119218
+0x00515CC4,0x00515CC8,backed by code,statcmd.cpp,,Buttonset Info,-119208
+0x00515CC4,0x00515CD8,backed by code,statcmd.cpp,,Buttonset Info,-119208
+0x00515CD8,0x00515CDC,backed by code,statcmd.cpp,,Buttonset Info,-119203
+0x00515CD8,0x00515D00,backed by code,statcmd.cpp,,Buttonset Info,-119203
+0x00515D00,0x00515D04,backed by code,statcmd.cpp,,Buttonset Info,-119193
+0x00515D00,0x00515D14,backed by code,statcmd.cpp,,Buttonset Info,-119193
+0x00515D14,0x00515D18,backed by code,statcmd.cpp,,Buttonset Info,-119188
+0x00515D14,0x00515D50,backed by code,statcmd.cpp,,Buttonset Info,-119188
+0x00515D50,0x00515D54,backed by code,statcmd.cpp,,Buttonset Info,-119173
+0x00515D50,0x00515D64,backed by code,statcmd.cpp,,Buttonset Info,-119173
+0x00515D64,0x00515D68,simple data,statcmd.cpp,scratch,,-119168
+0x00515D68,0x00515D6C,backed by code,statcmd.cpp,,Buttonset Info,-119167
+0x00515D68,0x00515DCC,backed by code,statcmd.cpp,,Buttonset Info,-119167
+0x00515DD0,0x00515DD4,backed by code,statcmd.cpp,BTNS_Military,Buttonset Info,-119141
+0x00515DD0,0x00515E34,backed by code,statcmd.cpp,BTNS_Military,Buttonset Info,-119141
+0x00515E34,0x00515E38,simple data,statcmd.cpp,scratch,,-119116
+0x00515E38,0x00515E3C,backed by code,statcmd.cpp,,Buttonset Info,-119115
+0x00515E38,0x00515E9C,backed by code,statcmd.cpp,,Buttonset Info,-119115
+0x00515E9C,0x00515EA0,simple data,statcmd.cpp,scratch,,-119090
+0x00515EA0,0x00515EA4,backed by code,statcmd.cpp,BTNS_Transport,Buttonset Info,-119089
+0x00515EA0,0x00515F2C,backed by code,statcmd.cpp,BTNS_Transport,Buttonset Info,-119089
+0x00515F2C,0x00515F30,backed by code,statcmd.cpp,BTNS_Turret,Buttonset Info,-119054
+0x00515F2C,0x00515F54,backed by code,statcmd.cpp,BTNS_Turret,Buttonset Info,-119054
+0x00515F54,0x00515F58,simple data,statcmd.cpp,scratch,,-119044
+0x00515F58,0x00515F5C,backed by code,statcmd.cpp,BTNS_Larva,Buttonset Info,-119043
+0x00515F58,0x0051600C,backed by code,statcmd.cpp,BTNS_Larva,Buttonset Info,-119043
+0x0051600C,0x00516010,backed by code,statcmd.cpp,BTNS_UnitMorphing,Buttonset Info,-118998
+0x0051600C,0x00516020,backed by code,statcmd.cpp,BTNS_UnitMorphing,Buttonset Info,-118998
+0x00516020,0x00516024,backed by code,statcmd.cpp,BTNS_Drone,Buttonset Info,-118993
+0x00516020,0x005160D4,backed by code,statcmd.cpp,BTNS_Drone,Buttonset Info,-118993
+0x005160D4,0x005160D8,simple data,statcmd.cpp,scratch,,-118948
+0x005160D8,0x005160DC,backed by code,statcmd.cpp,,Buttonset Info,-118947
+0x005160D8,0x00516164,backed by code,statcmd.cpp,,Buttonset Info,-118947
+0x00516164,0x00516168,simple data,statcmd.cpp,scratch,,-118912
+0x00516168,0x0051616C,backed by code,statcmd.cpp,,Buttonset Info,-118911
+0x00516168,0x005161E0,backed by code,statcmd.cpp,,Buttonset Info,-118911
+0x005161E0,0x005161E4,backed by code,statcmd.cpp,BTNS_MilitaryBurrow,Buttonset Info,-118881
+0x005161E0,0x0051626C,backed by code,statcmd.cpp,BTNS_MilitaryBurrow,Buttonset Info,-118881
+0x0051626C,0x00516270,simple data,statcmd.cpp,scratch,,-118846
+0x00516270,0x00516274,backed by code,statcmd.cpp,BTNS_Hydralisk,Buttonset Info,-118845
+0x00516270,0x00516310,backed by code,statcmd.cpp,BTNS_Hydralisk,Buttonset Info,-118845
+0x00516310,0x00516314,backed by code,statcmd.cpp,BTNS_Mutalisk,Buttonset Info,-118805
+0x00516310,0x0051639C,backed by code,statcmd.cpp,BTNS_Mutalisk,Buttonset Info,-118805
+0x0051639C,0x005163A0,simple data,statcmd.cpp,scratch,,-118770
+0x005163A0,0x005163A4,backed by code,statcmd.cpp,BTNS_Lurker,Buttonset Info,-118769
+0x005163A0,0x0051642C,backed by code,statcmd.cpp,BTNS_Lurker,Buttonset Info,-118769
+0x0051642C,0x00516430,simple data,statcmd.cpp,scratch,,-118734
+0x00516430,0x00516434,backed by code,statcmd.cpp,BTNS_FlyingBuilding,Buttonset Info,-118733
+0x00516430,0x005164E4,backed by code,statcmd.cpp,BTNS_FlyingBuilding,Buttonset Info,-118733
+0x005164E4,0x005164E8,simple data,statcmd.cpp,scratch,,-118688
+0x005164E8,0x005164EC,backed by code,statcmd.cpp,BTNS_Defiler,Buttonset Info,-118687
+0x005164E8,0x0051659C,backed by code,statcmd.cpp,BTNS_Defiler,Buttonset Info,-118687
+0x0051659C,0x005165A0,simple data,statcmd.cpp,scratch,,-118642
+0x005165A0,0x005165A4,backed by code,statcmd.cpp,BTNS_InfestedTerran,Buttonset Info,-118641
+0x005165A0,0x0051662C,backed by code,statcmd.cpp,BTNS_InfestedTerran,Buttonset Info,-118641
+0x0051662C,0x00516630,simple data,statcmd.cpp,scratch,,-118606
+0x00516630,0x00516634,backed by code,statcmd.cpp,BTNS_InfestedKerrigan,Buttonset Info,-118605
+0x00516630,0x005166F8,backed by code,statcmd.cpp,BTNS_InfestedKerrigan,Buttonset Info,-118605
+0x005166F8,0x005166FC,backed by code,statcmd.cpp,BTNS_InfestedDuran,Buttonset Info,-118555
+0x005166F8,0x005167AC,backed by code,statcmd.cpp,BTNS_InfestedDuran,Buttonset Info,-118555
+0x005167AC,0x005167B0,simple data,statcmd.cpp,scratch,,-118510
+0x005167B0,0x005167B4,backed by code,statcmd.cpp,BTNS_Hatchery,Buttonset Info,-118509
+0x005167B0,0x00516814,backed by code,statcmd.cpp,BTNS_Hatchery,Buttonset Info,-118509
+0x00516814,0x00516818,simple data,statcmd.cpp,scratch,,-118484
+0x00516818,0x0051681C,backed by code,statcmd.cpp,BTNS_Lair,Buttonset Info,-118483
+0x00516818,0x005168CC,backed by code,statcmd.cpp,BTNS_Lair,Buttonset Info,-118483
+0x005168CC,0x005168D0,simple data,statcmd.cpp,scratch,,-118438
+0x005168D0,0x005168D4,backed by code,statcmd.cpp,BTNS_Hive,Buttonset Info,-118437
+0x005168D0,0x00516970,backed by code,statcmd.cpp,BTNS_Hive,Buttonset Info,-118437
+0x00516970,0x00516974,backed by code,statcmd.cpp,BTNS_NydusCanal,Buttonset Info,-118397
+0x00516970,0x00516984,backed by code,statcmd.cpp,BTNS_NydusCanal,Buttonset Info,-118397
+0x00516984,0x00516988,simple data,statcmd.cpp,scratch,,-118392
+0x00516988,0x0051698C,backed by code,statcmd.cpp,BTNS_Spire,Buttonset Info,-118391
+0x00516988,0x005169D8,backed by code,statcmd.cpp,BTNS_Spire,Buttonset Info,-118391
+0x005169D8,0x005169DC,backed by code,statcmd.cpp,BTNS_GreaterSpire,Buttonset Info,-118371
+0x005169D8,0x00516A14,backed by code,statcmd.cpp,BTNS_GreaterSpire,Buttonset Info,-118371
+0x00516A14,0x00516A18,backed by code,statcmd.cpp,BTNS_SpawningPool,Buttonset Info,-118356
+0x00516A14,0x00516A50,backed by code,statcmd.cpp,BTNS_SpawningPool,Buttonset Info,-118356
+0x00516A50,0x00516A54,backed by code,statcmd.cpp,BTNS_CreepColony,Buttonset Info,-118341
+0x00516A50,0x00516A78,backed by code,statcmd.cpp,BTNS_CreepColony,Buttonset Info,-118341
+0x00516A78,0x00516A7C,backed by code,statcmd.cpp,BTNS_HydraliskDen,Buttonset Info,-118331
+0x00516A78,0x00516ADC,backed by code,statcmd.cpp,BTNS_HydraliskDen,Buttonset Info,-118331
+0x00516ADC,0x00516AE0,simple data,statcmd.cpp,scratch,,-118306
+0x00516AE0,0x00516AE4,backed by code,statcmd.cpp,BTNS_QueensNest,Buttonset Info,-118305
+0x00516AE0,0x00516B44,backed by code,statcmd.cpp,BTNS_QueensNest,Buttonset Info,-118305
+0x00516B44,0x00516B48,simple data,statcmd.cpp,scratch,,-118280
+0x00516B48,0x00516B4C,backed by code,statcmd.cpp,BTNS_DefilerMound,Buttonset Info,-118279
+0x00516B48,0x00516BAC,backed by code,statcmd.cpp,BTNS_DefilerMound,Buttonset Info,-118279
+0x00516BAC,0x00516BB0,simple data,statcmd.cpp,scratch,,-118254
+0x00516BB0,0x00516BB4,backed by code,statcmd.cpp,BTNS_EvolutionChamber,Buttonset Info,-118253
+0x00516BB0,0x00516C00,backed by code,statcmd.cpp,BTNS_EvolutionChamber,Buttonset Info,-118253
+0x00516C00,0x00516C04,backed by code,statcmd.cpp,BTNS_UltraliskCavern,Buttonset Info,-118233
+0x00516C00,0x00516C3C,backed by code,statcmd.cpp,BTNS_UltraliskCavern,Buttonset Info,-118233
+0x00516C3C,0x00516C40,backed by code,statcmd.cpp,BTNS_Nexus,Buttonset Info,-118218
+0x00516C3C,0x00516C78,backed by code,statcmd.cpp,BTNS_Nexus,Buttonset Info,-118218
+0x00516C78,0x00516C7C,backed by code,statcmd.cpp,BTNS_Probe,Buttonset Info,-118203
+0x00516C78,0x00516D04,backed by code,statcmd.cpp,BTNS_Probe,Buttonset Info,-118203
+0x00516D04,0x00516D08,simple data,statcmd.cpp,scratch,,-118168
+0x00516D08,0x00516D0C,backed by code,statcmd.cpp,,Buttonset Info,-118167
+0x00516D08,0x00516DBC,backed by code,statcmd.cpp,,Buttonset Info,-118167
+0x00516DBC,0x00516DC0,simple data,statcmd.cpp,scratch,,-118122
+0x00516DC0,0x00516DC4,backed by code,statcmd.cpp,,Buttonset Info,-118121
+0x00516DC0,0x00516E74,backed by code,statcmd.cpp,,Buttonset Info,-118121
+0x00516E74,0x00516E78,simple data,statcmd.cpp,scratch,,-118076
+0x00516E78,0x00516E7C,backed by code,statcmd.cpp,BTNS_HighTemplar,Buttonset Info,-118075
+0x00516E78,0x00516F18,backed by code,statcmd.cpp,BTNS_HighTemplar,Buttonset Info,-118075
+0x00516F18,0x00516F1C,backed by code,statcmd.cpp,BTNS_DarkTemplar,Buttonset Info,-118035
+0x00516F18,0x00516FA4,backed by code,statcmd.cpp,BTNS_DarkTemplar,Buttonset Info,-118035
+0x00516FA4,0x00516FA8,simple data,statcmd.cpp,scratch,,-118000
+0x00516FA8,0x00516FAC,backed by code,statcmd.cpp,BTNS_Carrier,Buttonset Info,-117999
+0x00516FA8,0x00517034,backed by code,statcmd.cpp,BTNS_Carrier,Buttonset Info,-117999
+0x00517034,0x00517038,simple data,statcmd.cpp,scratch,,-117964
+0x00517038,0x0051703C,backed by code,statcmd.cpp,BTNS_Reaver,Buttonset Info,-117963
+0x00517038,0x005170C4,backed by code,statcmd.cpp,BTNS_Reaver,Buttonset Info,-117963
+0x005170C4,0x005170C8,simple data,statcmd.cpp,scratch,,-117928
+0x005170C8,0x005170CC,backed by code,statcmd.cpp,BTNS_Arbiter,Buttonset Info,-117927
+0x005170C8,0x00517154,backed by code,statcmd.cpp,BTNS_Arbiter,Buttonset Info,-117927
+0x00517154,0x00517158,simple data,statcmd.cpp,scratch,,-117892
+0x00517158,0x0051715C,backed by code,statcmd.cpp,BTNS_HeroTemplar,Buttonset Info,-117891
+0x00517158,0x005171E4,backed by code,statcmd.cpp,BTNS_HeroTemplar,Buttonset Info,-117891
+0x005171E4,0x005171E8,simple data,statcmd.cpp,scratch,,-117856
+0x005171E8,0x005171EC,backed by code,statcmd.cpp,BTNS_Corsair,Buttonset Info,-117855
+0x005171E8,0x00517260,backed by code,statcmd.cpp,BTNS_Corsair,Buttonset Info,-117855
+0x00517260,0x00517264,backed by code,statcmd.cpp,BTNS_DarkArchon,Buttonset Info,-117825
+0x00517260,0x005172EC,backed by code,statcmd.cpp,BTNS_DarkArchon,Buttonset Info,-117825
+0x005172EC,0x005172F0,simple data,statcmd.cpp,scratch,,-117790
+0x005172F0,0x005172F4,backed by code,statcmd.cpp,BTNS_RoboticsFacility,Buttonset Info,-117789
+0x005172F0,0x00517354,backed by code,statcmd.cpp,BTNS_RoboticsFacility,Buttonset Info,-117789
+0x00517354,0x00517358,simple data,statcmd.cpp,scratch,,-117764
+0x00517358,0x0051735C,backed by code,statcmd.cpp,BTNS_Gateway,Buttonset Info,-117763
+0x00517358,0x005173D0,backed by code,statcmd.cpp,BTNS_Gateway,Buttonset Info,-117763
+0x005173D0,0x005173D4,backed by code,statcmd.cpp,BTNS_Stargate,Buttonset Info,-117733
+0x005173D0,0x00517448,backed by code,statcmd.cpp,BTNS_Stargate,Buttonset Info,-117733
+0x00517448,0x0051744C,backed by code,statcmd.cpp,BTNS_CitadelOfAdun,Buttonset Info,-117703
+0x00517448,0x00517470,backed by code,statcmd.cpp,BTNS_CitadelOfAdun,Buttonset Info,-117703
+0x00517470,0x00517474,backed by code,statcmd.cpp,BTNS_CyberneticsCore,Buttonset Info,-117693
+0x00517470,0x005174C0,backed by code,statcmd.cpp,BTNS_CyberneticsCore,Buttonset Info,-117693
+0x005174C0,0x005174C4,backed by code,statcmd.cpp,BTNS_TemplarArchives,Buttonset Info,-117673
+0x005174C0,0x00517560,backed by code,statcmd.cpp,BTNS_TemplarArchives,Buttonset Info,-117673
+0x00517560,0x00517564,backed by code,statcmd.cpp,BTNS_Forge,Buttonset Info,-117633
+0x00517560,0x005175B0,backed by code,statcmd.cpp,BTNS_Forge,Buttonset Info,-117633
+0x005175B0,0x005175B4,backed by code,statcmd.cpp,BTNS_FleetBeacon,Buttonset Info,-117613
+0x005175B0,0x0051763C,backed by code,statcmd.cpp,BTNS_FleetBeacon,Buttonset Info,-117613
+0x0051763C,0x00517640,simple data,statcmd.cpp,scratch,,-117578
+0x00517640,0x00517644,backed by code,statcmd.cpp,BTNS_ArbiterTribunal,Buttonset Info,-117577
+0x00517640,0x005176A4,backed by code,statcmd.cpp,BTNS_ArbiterTribunal,Buttonset Info,-117577
+0x005176A4,0x005176A8,simple data,statcmd.cpp,scratch,,-117552
+0x005176A8,0x005176AC,backed by code,statcmd.cpp,BTNS_RoboticsSupportBay,Buttonset Info,-117551
+0x005176A8,0x005176F8,backed by code,statcmd.cpp,BTNS_RoboticsSupportBay,Buttonset Info,-117551
+0x005176F8,0x005176FC,backed by code,statcmd.cpp,BTNS_ShieldBattery,Buttonset Info,-117531
+0x005176F8,0x0051770C,backed by code,statcmd.cpp,BTNS_ShieldBattery,Buttonset Info,-117531
+0x0051770C,0x00517710,backed by code,statcmd.cpp,BTNS_Observatory,Buttonset Info,-117526
+0x0051770C,0x00517748,backed by code,statcmd.cpp,BTNS_Observatory,Buttonset Info,-117526
+0x00517748,0x0051774C,backed by code,statcmd.cpp,,Buttonset Info,-117511
+0x00517748,0x005177D4,backed by code,statcmd.cpp,,Buttonset Info,-117511
+0x005177D4,0x005177D8,simple data,statcmd.cpp,scratch,,-117476
+0x005177D8,0x005177DC,backed by code,statcmd.cpp,BTNS_Stimpack,Buttonset Info,-117475
+0x005177D8,0x00517850,backed by code,statcmd.cpp,BTNS_Stimpack,Buttonset Info,-117475
+0x00517850,0x00517854,backed by code,statcmd.cpp,BTNS_Medic,Buttonset Info,-117445
+0x00517850,0x005178DC,backed by code,statcmd.cpp,BTNS_Medic,Buttonset Info,-117445
+0x005178DC,0x005178E0,simple data,statcmd.cpp,scratch,,-117410
+0x005178E0,0x005178E4,backed by code,statcmd.cpp,BTNS_SCV,Buttonset Info,-117409
+0x005178E0,0x00517994,backed by code,statcmd.cpp,BTNS_SCV,Buttonset Info,-117409
+0x00517994,0x00517998,simple data,statcmd.cpp,scratch,,-117364
+0x00517998,0x0051799C,backed by code,statcmd.cpp,,Buttonset Info,-117363
+0x00517998,0x00517A4C,backed by code,statcmd.cpp,,Buttonset Info,-117363
+0x00517A4C,0x00517A50,simple data,statcmd.cpp,scratch,,-117318
+0x00517A50,0x00517A54,backed by code,statcmd.cpp,,Buttonset Info,-117317
+0x00517A50,0x00517AB4,backed by code,statcmd.cpp,,Buttonset Info,-117317
+0x00517AB4,0x00517AB8,simple data,statcmd.cpp,scratch,,-117292
+0x00517AB8,0x00517ABC,backed by code,statcmd.cpp,BTNS_Ghost,Buttonset Info,-117291
+0x00517AB8,0x00517B6C,backed by code,statcmd.cpp,BTNS_Ghost,Buttonset Info,-117291
+0x00517B6C,0x00517B70,simple data,statcmd.cpp,scratch,,-117246
+0x00517B70,0x00517B74,backed by code,statcmd.cpp,BTNS_HeroGhost,Buttonset Info,-117245
+0x00517B70,0x00517C10,backed by code,statcmd.cpp,BTNS_HeroGhost,Buttonset Info,-117245
+0x00517C10,0x00517C14,backed by code,statcmd.cpp,BTNS_Vulture,Buttonset Info,-117205
+0x00517C10,0x00517C88,backed by code,statcmd.cpp,BTNS_Vulture,Buttonset Info,-117205
+0x00517C88,0x00517C8C,backed by code,statcmd.cpp,BTNS_SiegeTank,Buttonset Info,-117175
+0x00517C88,0x00517D14,backed by code,statcmd.cpp,BTNS_SiegeTank,Buttonset Info,-117175
+0x00517D14,0x00517D18,simple data,statcmd.cpp,unused,,-117140
+0x00517D18,0x00517D1C,backed by code,statcmd.cpp,BTNS_Wraith,Buttonset Info,-117139
+0x00517D18,0x00517DA4,backed by code,statcmd.cpp,BTNS_Wraith,Buttonset Info,-117139
+0x00517DA4,0x00517DA8,simple data,statcmd.cpp,scratch,,-117104
+0x00517DA8,0x00517DAC,backed by code,statcmd.cpp,BTNS_ScienceVessel,Buttonset Info,-117103
+0x00517DA8,0x00517E48,backed by code,statcmd.cpp,BTNS_ScienceVessel,Buttonset Info,-117103
+0x00517E48,0x00517E4C,backed by code,statcmd.cpp,BTNS_Battlecruiser,Buttonset Info,-117063
+0x00517E48,0x00517EC0,backed by code,statcmd.cpp,BTNS_Battlecruiser,Buttonset Info,-117063
+0x00517EC0,0x00517EC4,backed by code,statcmd.cpp,BTNS_RaynorVulture,Buttonset Info,-117033
+0x00517EC0,0x00517F38,backed by code,statcmd.cpp,BTNS_RaynorVulture,Buttonset Info,-117033
+0x00517F38,0x00517F3C,backed by code,statcmd.cpp,BTNS_CommandCenter,Buttonset Info,-117003
+0x00517F38,0x00518000,backed by code,statcmd.cpp,BTNS_CommandCenter,Buttonset Info,-117003
+0x00518000,0x00518004,backed by code,statcmd.cpp,BTNS_ComsatStation,Buttonset Info,-116953
+0x00518000,0x00518014,backed by code,statcmd.cpp,BTNS_ComsatStation,Buttonset Info,-116953
+0x00518014,0x00518018,backed by code,statcmd.cpp,BTNS_NuclearSilo,Buttonset Info,-116948
+0x00518014,0x0051803C,backed by code,statcmd.cpp,BTNS_NuclearSilo,Buttonset Info,-116948
+0x0051803C,0x00518040,backed by code,statcmd.cpp,BTNS_Bunker,Buttonset Info,-116938
+0x0051803C,0x00518064,backed by code,statcmd.cpp,BTNS_Bunker,Buttonset Info,-116938
+0x00518068,0x0051806C,backed by code,statcmd.cpp,BTNS_Barracks,Buttonset Info,-116927
+0x00518068,0x00518144,backed by code,statcmd.cpp,BTNS_Barracks,Buttonset Info,-116927
+0x00518144,0x00518148,simple data,statcmd.cpp,scratch,,-116872
+0x00518148,0x0051814C,backed by code,statcmd.cpp,BTNS_Factory,Buttonset Info,-116871
+0x00518148,0x00518238,backed by code,statcmd.cpp,BTNS_Factory,Buttonset Info,-116871
+0x00518238,0x0051823C,backed by code,statcmd.cpp,BTNS_ScienceFacility,Buttonset Info,-116811
+0x00518238,0x00518328,backed by code,statcmd.cpp,BTNS_ScienceFacility,Buttonset Info,-116811
+0x00518328,0x0051832C,backed by code,statcmd.cpp,BTNS_Starport,Buttonset Info,-116751
+0x00518328,0x0051842C,backed by code,statcmd.cpp,BTNS_Starport,Buttonset Info,-116751
+0x0051842C,0x00518430,simple data,statcmd.cpp,scratch,,-116686
+0x00518430,0x00518434,backed by code,statcmd.cpp,BTNS_ControlTower,Buttonset Info,-116685
+0x00518430,0x00518480,backed by code,statcmd.cpp,BTNS_ControlTower,Buttonset Info,-116685
+0x00518480,0x00518484,backed by code,statcmd.cpp,BTNS_EngineeringBay,Buttonset Info,-116665
+0x00518480,0x0051850C,backed by code,statcmd.cpp,BTNS_EngineeringBay,Buttonset Info,-116665
+0x0051850C,0x00518510,simple data,statcmd.cpp,scratch,,-116630
+0x00518510,0x00518514,backed by code,statcmd.cpp,BTNS_CovertOps,Buttonset Info,-116629
+0x00518510,0x00518588,backed by code,statcmd.cpp,BTNS_CovertOps,Buttonset Info,-116629
+0x00518588,0x0051858C,backed by code,statcmd.cpp,BTNS_PhysicsLab,Buttonset Info,-116599
+0x00518588,0x005185D8,backed by code,statcmd.cpp,BTNS_PhysicsLab,Buttonset Info,-116599
+0x005185D8,0x005185DC,backed by code,statcmd.cpp,BTNS_Armory,Buttonset Info,-116579
+0x005185D8,0x0051863C,backed by code,statcmd.cpp,BTNS_Armory,Buttonset Info,-116579
+0x0051863C,0x00518640,simple data,statcmd.cpp,scratch,,-116554
+0x00518640,0x00518644,backed by code,statcmd.cpp,BTNS_Academy,Buttonset Info,-116553
+0x00518640,0x005186CC,backed by code,statcmd.cpp,BTNS_Academy,Buttonset Info,-116553
+0x005186CC,0x005186D0,simple data,statcmd.cpp,scratch,,-116518
+0x005186D0,0x005186D4,backed by code,statcmd.cpp,BTNS_MachineSHop,Buttonset Info,-116517
+0x005186D0,0x00518748,backed by code,statcmd.cpp,BTNS_MachineSHop,Buttonset Info,-116517
+0x00518748,0x0051874C,backed by code,statcmd.cpp,BTNS_InfestedCommandCenter,Buttonset Info,-116487
+0x00518748,0x005187D4,backed by code,statcmd.cpp,BTNS_InfestedCommandCenter,Buttonset Info,-116487
+0x005187D4,0x005187D8,backed by code,statcmd.cpp,BTNS_FlagBeacon,Buttonset Info,-116452
+0x005187D4,0x005187E8,backed by code,statcmd.cpp,BTNS_FlagBeacon,Buttonset Info,-116452
+0x005187E8,0x005193A0,backed by code,statcmd.cpp,gCards,Unit buttonpage map,-116447
+0x005193A0,0x00519E50,backed by code,statcmd.cpp,gTypeFcns,Unit status card/HUD info,-115697
+0x0051A280,0x0051A28C,backed by code,victory.cpp,sgTriggers,Player 1 TriggerList,-114745
+0x0051A28C,0x0051A298,backed by code,victory.cpp,sgTriggers,Player 2 TriggerList,-114742
+0x0051A298,0x0051A2A4,backed by code,victory.cpp,sgTriggers,Player 3 TriggerList,-114739
+0x0051A2A4,0x0051A2B0,backed by code,victory.cpp,sgTriggers,Player 4 TriggerList,-114736
+0x0051A2B0,0x0051A2BC,backed by code,victory.cpp,sgTriggers,Player 5 TriggerList,-114733
+0x0051A2BC,0x0051A2C8,backed by code,victory.cpp,sgTriggers,Player 6 TriggerList,-114730
+0x0051A2C8,0x0051A2D4,backed by code,victory.cpp,sgTriggers,Player 7 TriggerList,-114727
+0x0051A2D4,0x0051A2E0,backed by code,victory.cpp,sgTriggers,Player 8 TriggerList,-114724
+0x0051A424,0x0051A43A,backed by code,,scratch,Extra memory space for writing,-114640
+0x0051A440,0x0051A457,backed by code,,scratch,Extra memory space for writing,-114633
+0x0051AAB0,0x0051AAC7,backed by code,,scratch,Extra memory space for writing,-114221
+0x0051AAC8,0x0051AADF,backed by code,,scratch,Extra memory space for writing,-114215
+0x0051AAE0,0x0051AAF7,backed by code,,scratch,Extra memory space for writing,-114209
+0x0051AB94,0x0051ABAD,backed by code,,scratch,Extra memory space for writing,-114164
+0x0051ABB0,0x0051ABC0,backed by code,spd_dlg.cpp,sgSpdEvtFcnTbl,,-114157
+0x0051ABC0,0x0051ABD4,backed by code,videodlg.cpp,sVideoDlgEvtFcnTbl_g,,-114153
+0x0051ABD4,0x0051ABEE,backed by code,,scratch,Extra memory space for writing,-114148
+0x0051ABF0,0x0051ABFC,backed by code,tips.cpp,sgTipsEvtFcnTbl,,-114141
+0x0051ABFC,0x0051AC10,simple data,CUnitCombat.cpp,sg_escape_ranges,AI distance checking?,-114138
+0x0051AC10,0x0051AC29,backed by code,,scratch,Extra memory space for writing,-114133
+0x0051AC2C,0x0051AC44,backed by code,,scratch,Extra memory space for writing,-114126
+0x0051AC48,0x0051AC5A,backed by code,,scratch,Extra memory space for writing,-114119
+0x0051AC5C,0x0051AC73,backed by code,,scratch,Extra memory space for writing,-114114
+0x0051AC74,0x0051AC84,backed by code,save_dlg.cpp,sSaveloadEvtFcnTbl_g,,-114108
+0x0051AD18,0x0051AD2E,backed by code,,scratch,Extra memory space for writing,-114067
+0x0051BAF8,0x0051BBF8,backed by code,,scratch,Extra memory space for writing,-113179
+0x0051CA14,0x0051CA18,simple data,net_rand.cpp,sglGameSeed,influence random seed,-112212
+0x0051CE70,0x0051CE8C,readonly,gameloop.cpp,,"latencyFrameCount, long for each game speed",-111933
+0x0051CE8C,0x0051CE90,simple data,gameloop.cpp,,lastInputTickCount,-111926
+0x0051CE98,0x0051CE9C,simple data,gameloop.cpp,,"fowUpdateCounter, delay counter for updating the fog of war (set to 1 to update instantely)",-111923
+0x0051CEA0,0x0051CEA4,readonly,gameloop.cpp,sgbNetworkTurnTimer,,-111921
+0x0051CED0,0x0051DE6C,readonly,CImage.cpp,sgpImgGroups_g,Pointers to the graphics for each image type,-111909
+0x0051F2A8,0x005240B4,readonly,CImage.cpp,sgpAtkOverlayGroups_g,,-109615
+0x005240D0,0x005244B7,simple data,CImage.cpp,sgbNumDmgOverlays_g,,-104613
+0x0052E4C0,0x0052E4C4,simple data,CImage.cpp,,pFirstSelectionCircleImage,-94121
+0x0052E5C8,0x0052F564,readonly,CImage.cpp,sgpShieldOverlayGroups_g,grpHead *[999],-94055
+0x0052F568,0x0057D768,readonly,CImage.cpp,sgImages,image array access (individual images in the game),-93055
+0x0057EB68,0x0057EB6C,readonly,CImage.cpp,,pFirstImage,-11775
+0x0057EB70,0x0057EB74,readonly,CImage.cpp,,pLastImage,-11773
+0x0057EEE0,0x0057F090,backed by code,net_glue.cpp,gPlayerData,"Player information structures (name, race, force, etc)",-11553
+0x0057F090,0x0057F094,readonly,net_glue.cpp,,provider_LatencyCalls,-11445
+0x0057F0B4,0x0057F0B5,readonly,net_glue.cpp,gbMultiPlayerMode,,-11436
+0x0057F0D8,0x0057F0DC,readonly,net_glue.cpp,,provider_maxBufferSize,-11427
+0x0057F0F0,0x005967F0,simple data,all.cpp,s,Game data structure,-11421
+0x005967F8,0x00596885,simple data,,netMakeGameData (name),Game network data structure,12581
+0x00596A18,0x00596B17,backed by code,event_Win.cpp,gKeyTbl,Keypress array (1 byte each),12717
+0x00597208,0x0059723C,backed by code,status.cpp,gpStatUnits,,13225
+0x00597238,0x0059723C,simple data,status.cpp,,"pGameScreenInfo, Some console mask related thing",13237
+0x0059723C,0x0059723D,simple data,status.cpp,,bUnitSelectionNeedsUpdate,13238
+0x005973A0,0x005993A0,backed by code,light.cpp,_gbShadowRemapColorTbl,dark_pcx_imageBuffer,13327
+0x005993C4,0x005993C8,backed by code,gamemap.cpp,gfpMIMap,Pointer to map tiles array,15384
+0x005993D4,0x005993D8,backed by code,gamemap.cpp,gpMapStrs,pointer to map strings,15388
+0x0059C6C0,0x0059CAC0,backed by code,minimap.cpp,,"picturePalette_Copy, minimap something",18647
+0x0059CB5C,0x0059CB60,backed by code,minimap.cpp,sgpMinimapDlg,minimap something (pointer to BIN dlg),18942
+0x0059CB60,0x0059CC60,backed by code,minimap.cpp,,"minimap palette, Some kind of minimap palette (256 bytes)",18943
+0x0059CC78,0x0059CC7C,simple data,net_time.cpp,,countdownTimeRemaining,19013
+0x0059CC80,0x0059CC84,simple data,net_time.cpp,,dropTimer,19015
+0x0059CCA8,0x006283E8,backed by code,CUnitInit.cpp,sgUnitsMem,unit array,19025
+0x006283F0,0x006283F4,readonly,CUnitInit.cpp,,usedUnitCount,161827
+0x006283F8,0x00628428,backed by code,CUnitInit.cpp,sgpPlayerLists_g,playerUnitPointers,161829
+0x00628428,0x0062842C,backed by code,CUnitInit.cpp,sgpTransList,LastHiddenUnitPointer,161841
+0x0062842C,0x00628430,backed by code,CUnitInit.cpp,,unknownPointer?,161842
+0x00628430,0x00628434,backed by code,CUnitInit.cpp,sgpUsedList,FirstUnitPointer,161843
+0x00628434,0x00628438,backed by code,CUnitInit.cpp,sgpScannerList,LastScannerSweepPointer,161844
+0x00628438,0x0062843C,backed by code,CUnitInit.cpp,sgpFreeList,pFirstEmptyUnit,161845
+0x0062843C,0x00628440,backed by code,CUnitInit.cpp,sgpFreeList,pLastEmptyUnit,161846
+0x00628444,0x00628448,backed by code,cellscrl.cpp,gfpCellBuf,vr4FileHandle,161848
+0x00628448,0x0062844C,readonly,cellscrl.cpp,glLastScrollPixelX,screenX,161849
+0x00628454,0x00628458,backed by code,cellscrl.cpp,_gfpScrollBuf,terrainCacheBitmap,161852
+0x00628458,0x0062845C,backed by code,cellscrl.cpp,gfpMtxSet,vx4FileHandle,161853
+0x00628470,0x00628474,readonly,cellscrl.cpp,glLastScrollPixelY,screenY,161859
+0x0062848C,0x00628490,readonly,cellscrl.cpp,glScrollPixelX,,161866
+0x00628494,0x00628498,backed by code,cellscrl.cpp,gfpCellMap,,161868
+0x00628498,0x0062849A,readonly,cellscrl.cpp,gwLastScrollMtxX,__scrMoveX,161869
+0x006284A8,0x006284AC,readonly,cellscrl.cpp,glScrollPixelY,,161873
+0x006284AC,0x006284AE,readonly,cellscrl.cpp,gwLastScrollMtxY,__scrMoveY,161874
+0x006284B8,0x006284E8,backed by code,select.cpp,,CUNIT *CurrentUnitSelection[12],161877
+0x006284E8,0x00628668,backed by code,select.cpp,gSelected,CUNIT *AllPlayerSelectionGroups[8][12],161889
+0x00629C90,0x00629D90,simple data,,,regionVisionFilter,163403
+0x00629D98,0x0063FD28,readonly,CSprite.cpp,sgSprites,Array of all game sprites,163469
+0x0063FE30,0x0063FE34,backed by code,CSprite.cpp,sgpFreeSprites_g,pFirstEmptySprite,186035
+0x0063FE34,0x0063FE38,backed by code,CSprite.cpp,sgpFreeSprites_g,pLastEmptySprite,186036
+0x0063FED8,0x0063FEDC,simple data,,???,path something,186077
+0x0063FF40,0x0063FF44,simple data,,???,path something,186103
+0x0063FF78,0x006402B4,simple data,gamesnd.cpp,,TerranSoundList,186117
+0x006402B8,0x00640548,simple data,gamesnd.cpp,,zergSoundList,186325
+0x00640550,0x0064086A,simple data,gamesnd.cpp,,ProtossSoundList,186491
+0x0064086C,0x00640870,simple data,gamesnd.cpp,gbSpeechMuted_g,"useQuietSounds, MuteUnitSpeech trigger",186690
+0x00640B58,0x00640B59,simple data,mapmsg.cpp,sgbNextMsg,"nextDisplayTextLine, The line that the next text message will display on",186877
+0x00640B5C,0x00640B60,simple data,mapmsg.cpp,scratch,unused?,186878
+0x00640B60,0x00641672,backed by code,mapmsg.cpp,sgszMsgTbl,Array of 13 message strings ( char [13][218] ),186879
+0x0064169C,0x006416A0,simple data,,scratch,,187598
+0x0064DEBC,0x0064DEC0,readonly,CBullet.cpp,,bulletCount,200406
+0x0064EED8,0x0064EEDC,readonly,CBullet.cpp,sgBulletUnusedList_g,pFirstUnusedBullet,201437
+0x0064EEDC,0x0064EEE0,readonly,CBullet.cpp,sgBulletUnusedList_g,pLastUnusedBullet,201438
+0x006509A0,0x006509A2,simple data,,sgwTriggerUpdateTimer_g,"triggerTimer, number of frames between trigger checks",203151
+0x006509B0,0x006509B4,simple data,,sgdwTriggerPlayer,"currentTrigPlayerID, Current player ID for triggers",203155
+0x00654880,0x00654A80,simple data,net_mgr.cpp,sgbCmdQueue_g,TurnBuffer,207175
+0x00654AA0,0x00654AA4,simple data,net_mgr.cpp,sgdwBytesInCmdQueue,,207311
+0x006556E4,0x006556E8,simple data,net_mgr.cpp,gdwNetLatency_g,,208096
+0x00655700,0x0065573D,simple data,upgrades.cxx,,upgrades_repeats,208103
+0x00655740,0x006557BA,simple data,upgrades.cxx,,upgrades_OreCostBase,208119
+0x006557BC,0x006557C0,simple data,upgrades.cxx,scratch,,208150
+0x006557C0,0x0065583A,simple data,upgrades.cxx,,upgrades_GasCostFactor,208151
+0x0065583C,0x00655840,simple data,upgrades.cxx,scratch,,208182
+0x00655840,0x006558BA,simple data,upgrades.cxx,,upgrades_GasCostBase,208183
+0x006558C0,0x0065593A,simple data,upgrades.cxx,guwUpgradeDepIndex,,208215
+0x00655940,0x006559BA,simple data,upgrades.cxx,,upgrades_TimeCostFactor,208247
+0x006559BC,0x006559C0,simple data,upgrades.cxx,scratch,,208278
+0x006559C0,0x00655A3A,simple data,upgrades.cxx,,upgrades_OreCostFactor,208279
+0x00655A40,0x00655ABA,simple data,upgrades.cxx,,upgrades_label,208311
+0x00655AC0,0x00655B3A,simple data,upgrades.cxx,,upgrades_Icon,208343
+0x00655B3C,0x00655B79,simple data,upgrades.cxx,,upgrades_isBroodwar,208374
+0x00655B7C,0x00655B80,simple data,upgrades.cxx,scratch,,208390
+0x00655B80,0x00655BFA,simple data,upgrades.cxx,,upgrades_TimeCostBase,208391
+0x00655BFC,0x00655C39,simple data,upgrades.cxx,,upgrades_race,208422
+0x00655C58,0x00655E10,backed by code,portdata.cxx,gszFidgetSmk,portdata_IdleDir,208445
+0x00655E80,0x00656038,backed by code,portdata.cxx,gszTalkSmk,portdata_TalkingDir,208583
+0x00656198,0x006561F0,simple data,techdata.cxx,guwTechDepIndex,,208781
+0x006561F0,0x00656248,simple data,techdata.cxx,,techdata_GasCost,208803
+0x00656248,0x006562A0,simple data,techdata.cxx,,techdata_oreCost,208825
+0x006562A0,0x006562F8,simple data,techdata.cxx,guwTechStr,techdata_label,208847
+0x006562F8,0x00656350,simple data,techdata.cxx,guwTechUseDepIndex,,208869
+0x00656350,0x0065637C,simple data,techdata.cxx,gubTechAlwaysAllowed,techdata_DefaultResearched,208891
+0x0065637C,0x00656380,simple data,techdata.cxx,scratch,,208902
+0x00656380,0x006563D8,simple data,techdata.cxx,,techdata_EnergyCost,208903
+0x006563D8,0x00656430,simple data,techdata.cxx,,techdata_TimeCost,208925
+0x00656430,0x00656488,simple data,techdata.cxx,,techdata_Icon,208947
+0x00656488,0x006564B4,simple data,techdata.cxx,,techdata_race,208969
+0x006564B4,0x006564E0,simple data,techdata.cxx,,techdata_isBroodwar,208980
+0x006564E0,0x00656562,simple data,weapons.cxx,gnWeapLaunch,weaponsdat_dmgFactor,208991
+0x00656568,0x0065666C,simple data,weapons.cxx,,weaponsdat_targetErrorStr,209025
+0x00656670,0x006566F2,simple data,weapons.cxx,gubWeapFireType,Weapon behaviour,209091
+0x006566F4,0x006566F8,simple data,weapons.cxx,scratch,,209124
+0x006566F8,0x0065677A,simple data,weapons.cxx,gubWeapDamageType,,209125
+0x0065677C,0x00656780,simple data,weapons.cxx,scratch,,209158
+0x00656780,0x00656884,simple data,weapons.cxx,,weaponsdat_icon,209159
+0x00656884,0x00656888,simple data,weapons.cxx,scratch,,209224
+0x00656888,0x0065698C,simple data,weapons.cxx,,weaponsdat_innerSplash,209225
+0x0065698C,0x00656990,simple data,weapons.cxx,scratch,,209290
+0x00656990,0x00656A12,simple data,weapons.cxx,,weaponsdat_AttackAngle,209291
+0x00656A14,0x00656A18,simple data,weapons.cxx,scratch,,209324
+0x00656A18,0x00656C20,simple data,weapons.cxx,,weaponsdat_minRange,209325
+0x00656C20,0x00656CA2,simple data,weapons.cxx,,weaponsdat_upwardOffset,209455
+0x00656CA4,0x00656CA8,simple data,weapons.cxx,scratch,,209488
+0x00656CA8,0x00656EB0,simple data,weapons.cxx,,weaponsdat_graphics,209489
+0x00656EB0,0x00656FB4,simple data,weapons.cxx,,weaponsdat_dmgAmount,209619
+0x00656FB4,0x00656FB8,simple data,weapons.cxx,scratch,,209684
+0x00656FB8,0x0065703A,simple data,weapons.cxx,gnWeapCooldown,,209685
+0x0065703C,0x00657040,simple data,weapons.cxx,scratch,,209718
+0x00657040,0x006570C2,simple data,weapons.cxx,,weaponsdat_removeAfter,209719
+0x006570C4,0x006570C8,simple data,weapons.cxx,scratch,,209752
+0x006570C8,0x006571CC,simple data,weapons.cxx,,weaponsdat_middleSplash,209753
+0x006571CC,0x006571D0,simple data,weapons.cxx,scratch,,209818
+0x006571D0,0x00657252,simple data,weapons.cxx,,weaponsdat_damageUpgrade,209819
+0x00657254,0x00657258,simple data,weapons.cxx,scratch,,209852
+0x00657258,0x006572DA,simple data,weapons.cxx,,weaponsdat_wpnType,209853
+0x006572DC,0x006572E0,simple data,weapons.cxx,scratch,,209886
+0x006572E0,0x006573E4,simple data,weapons.cxx,,weaponsdat_label,209887
+0x006573E4,0x006573E8,simple data,weapons.cxx,scratch,,209952
+0x006573E8,0x0065746A,simple data,weapons.cxx,,weaponsdat_technology,209953
+0x0065746C,0x00657470,simple data,weapons.cxx,scratch,,209986
+0x00657470,0x00657678,simple data,weapons.cxx,,weaponsdat_maxRange,209987
+0x00657678,0x0065777C,simple data,weapons.cxx,,weaponsdat_dmgBonus,210117
+0x00657780,0x00657884,simple data,weapons.cxx,,weaponsdat_outerSplash,210183
+0x00657888,0x0065790A,simple data,weapons.cxx,,weaponsdat_LaunchSpin,210249
+0x0065790C,0x00657910,simple data,weapons.cxx,scratch,,210282
+0x00657910,0x00657992,simple data,weapons.cxx,,weaponsdat_ForwardOffset,210283
+0x00657998,0x00657A9C,simple data,weapons.cxx,,weaponsdat_targetFlags,210317
+0x00657A9C,0x00657A9D,simple data,mask.cpp,sgbBitMask,Fog of war mask for revealed areas,210382
+0x00657AA0,0x00658AA0,backed by code,mask.cpp,,4096-byte array of something (fog related) (does nothing?),210383
+0x0065FC18,0x0065FCFC,simple data,units.cxx,gubUnitWeaponAirLaunches,unitsdat_MaxAirHits,218669
+0x0065FD00,0x0065FEC8,simple data,units.cxx,guwUnitGasesCost,unitsdat_GasCost,218727
+0x0065FEC8,0x0065FFAC,simple data,units.cxx,gubUnitArmor,unitsdat_Armor,218841
+0x0065FFB0,0x00660178,simple data,units.cxx,guwFirstWhatSnd,unitsdat_WhatSoundStart,218899
+0x00660178,0x0066025C,simple data,units.cxx,gubUnitAIData,unitsdat_AIInternal,219013
+0x00660260,0x00660428,simple data,units.cxx,guwUnitCustomName,unitsdat_UnitMapString,219071
+0x00660428,0x006605F0,simple data,units.cxx,guwUnitTimeToBuild,unitsdat_TimeCost,219185
+0x006605F0,0x006606D4,simple data,units.cxx,gubUnitFaceAngle,unitsdat_UnitDirection,219299
+0x006606D8,0x006607BC,simple data,units.cxx,gbProduct,unitsdat_isBroodwarUnit,219357
+0x006607C0,0x00660988,simple data,units.cxx,guwAttachedUnit,unitsdat_Subunit1,219415
+0x00660988,0x00660A6C,simple data,units.cxx,gubUnitCargoHold,unitsdat_SpaceProvided,219529
+0x00660A70,0x00660C38,simple data,units.cxx,guwUnitDepIndex,,219587
+0x00660C38,0x00660E00,simple data,units.cxx,guwDefaultPowerup,unitsdat_Subunit2,219701
+0x00660E00,0x00660FC8,simple data,units.cxx,guwUnitShields,,219815
+0x00660FC8,0x006610AC,simple data,units.cxx,gubUnitMoveClass,unitsdat_movementflags,219929
+0x006610AC,0x006610B0,simple data,units.cxx,scratch,,219986
+0x006610B0,0x00661440,simple data,units.cxx,guiUnitBuildImage,unitsdat_ConstructionAnimationGfx,219987
+0x00661440,0x00661514,simple data,units.cxx,guwLastAckSnd,unitsdat_YesSoundEnd,220215
+0x00661514,0x00661518,simple data,units.cxx,scratch,,220268
+0x00661518,0x006616E0,simple data,units.cxx,gfEditFlags,unitsdat_StareditAvailabilityFlags,220269
+0x006616E0,0x006617C4,simple data,units.cxx,gubUnitWeaponAir,unitsdat_AirWeapon,220383
+0x006617C4,0x006617C8,simple data,units.cxx,scratch,,220440
+0x006617C8,0x00661EE8,simple data,units.cxx,gUnitBoundBox,Dimensions,220441
+0x00661EE8,0x00661FBC,simple data,units.cxx,guwLastPissedSnd,unitsdat_PissSoundEnd,220897
+0x00661FBC,0x00661FC0,simple data,units.cxx,scratch,,220950
+0x00661FC0,0x00662094,simple data,units.cxx,guwReadySnd,unitsdat_ReadySound,220951
+0x00662094,0x00662098,simple data,units.cxx,scratch,,221004
+0x00662098,0x0066217C,simple data,units.cxx,gubRClickActionType,unitsdat_RightclickActionOrder,221005
+0x0066217C,0x00662180,simple data,units.cxx,scratch,,221062
+0x00662180,0x00662264,simple data,units.cxx,gubUnitArmorClass,unitsdat_UnitSizeType,221063
+0x00662264,0x00662268,simple data,units.cxx,scratch,,221120
+0x00662268,0x0066234C,simple data,units.cxx,gubUnitOrderInitialize,unitsdat_HumanAIIdleOrder,221121
+0x00662350,0x006626E0,simple data,units.cxx,gxUnitLife,,221179
+0x006626E0,0x00662860,simple data,units.cxx,gUnitAddOnOffset,unitsdat_AddonPosition,221407
+0x00662860,0x00662BF0,simple data,units.cxx,gUnitPlaceboxSize,unitsdat_PlacementBoxSize,221503
+0x00662BF0,0x00662DB8,simple data,units.cxx,guwLastWhatSnd,unitsdat_WhatSoundEnd,221731
+0x00662DB8,0x00662E9C,simple data,units.cxx,gubUnitFindEnemy,unitsdat_TargetAcquisitionRange,221845
+0x00662E9C,0x00662EA0,simple data,units.cxx,scratch,,221902
+0x00662EA0,0x00662F84,simple data,units.cxx,gubUnitOrderAI,unitsdat_CompAIIdleOrder,221903
+0x00662F84,0x00662F88,simple data,units.cxx,scratch,,221960
+0x00662F88,0x00663150,simple data,units.cxx,guwUnitPortrait,unitsdat_portrait,221961
+0x00663150,0x00663234,simple data,units.cxx,gubUnitPriorityPlane,unitsdat_ElevationLevel,222075
+0x00663234,0x00663238,simple data,units.cxx,scratch,,222132
+0x00663238,0x0066331C,simple data,units.cxx,gubUnitUnmaskTbl,unitsdat_SightRange,222133
+0x0066331C,0x00663320,simple data,units.cxx,scratch,,222190
+0x00663320,0x00663404,simple data,units.cxx,gubUnitOrderAttackUnit,unitsdat_AttackUnitOrder,222191
+0x00663404,0x00663408,simple data,units.cxx,scratch,,222248
+0x00663408,0x006635D0,simple data,units.cxx,guwUnitScoreMake,unitsdat_BuildScore,222249
+0x006635D0,0x006636B4,simple data,units.cxx,gubUnitArmorType,unitsdat_ArmorUpgrade,222363
+0x006636B4,0x006636B8,simple data,units.cxx,scratch,,222420
+0x006636B8,0x0066379C,simple data,units.cxx,gubUnitWeaponGnd,unitsdat_GroundWeapon,222421
+0x0066379C,0x006637A0,simple data,units.cxx,scratch,,222478
+0x006637A0,0x00663884,simple data,units.cxx,gubUnitCountInfo,unitsdat_StareditGroupFlags,222479
+0x00663884,0x00663888,simple data,units.cxx,scratch,,222536
+0x00663888,0x00663A50,simple data,units.cxx,guwUnitMineralsCost,unitsdat_OreCost,222537
+0x00663A50,0x00663B34,simple data,units.cxx,gubUnitOrderAttackTile,unitsdat_AttackMoveOrder,222651
+0x00663B38,0x00663C0C,simple data,units.cxx,guwFirstPissedSnd,unitsdat_PissSoundStart,222709
+0x00663C0C,0x00663C10,simple data,units.cxx,scratch,,222762
+0x00663C10,0x00663CE4,simple data,units.cxx,guwFirstAckSnd,unitsdat_YesSoundStart,222763
+0x00663CE4,0x00663CE8,simple data,units.cxx,scratch,,222816
+0x00663CE8,0x00663DCC,simple data,units.cxx,gubUnitFoodUsed,unitsdat_SupplyRequired,222817
+0x00663DCC,0x00663DD0,simple data,units.cxx,scratch,,222874
+0x00663DD0,0x00663EB4,simple data,units.cxx,gubUnitBaseRank,unitsdat_sublabelRank,222875
+0x00663EB8,0x00664080,simple data,units.cxx,guwUnitScoreKill,unitsdat_DestroyScore,222933
+0x00664080,0x00664410,simple data,units.cxx,gulUnitTypeFlags,unitsdat_SpecialAbilityFlags,223047
+0x00664410,0x006644F4,simple data,units.cxx,gubUnitVolume,unitsdat_SpaceRequired,223275
+0x006644F4,0x006644F8,simple data,units.cxx,scratch,,223332
+0x006644F8,0x006645DC,backed by code,units.cxx,gubUnitFlingy,unitsdat_Graphics,223333
+0x006645DC,0x006645E0,simple data,units.cxx,scratch,,223390
+0x006645E0,0x006646C4,simple data,units.cxx,gubUnitWeaponGndLaunches,unitsdat_MaxGroundHits,223391
+0x006646C4,0x006646C8,simple data,units.cxx,scratch,,223448
+0x006646C8,0x006647AC,simple data,units.cxx,gubUnitFoodMade,unitsdat_SupplyProvided,223449
+0x006647AC,0x006647B0,simple data,units.cxx,scratch,,223506
+0x006647B0,0x00664894,simple data,units.cxx,gbUnitHasShields,unitsdat_ShieldEnable,223507
+0x00664894,0x00664898,simple data,units.cxx,scratch,,223564
+0x00664898,0x0066497C,simple data,units.cxx,gubUnitOrderGuard,unitsdat_ReturntoIdleOrder,223565
+0x0066497C,0x00664980,simple data,units.cxx,scratch,,223622
+0x00664980,0x00664A40,simple data,units.cxx,guwInfestedType,unitsdat_InfestationUnit,223623
+0x00664A40,0x00664AFD,simple data,orders.cxx,,ordersdat_Unknown4,223671
+0x00664B00,0x00664BBD,simple data,orders.cxx,gubOrderAttack,ordersdat_useWeaponTargetting,223719
+0x00664BC0,0x00664C7D,simple data,orders.cxx,,ordersdat_Unused12,223767
+0x00664C80,0x00664D3D,simple data,orders.cxx,scratch,,223815
+0x00664D40,0x00664DFD,simple data,orders.cxx,gubOrderSeq,,223863
+0x00664E00,0x00664EBD,simple data,orders.cxx,,ordersdat_TechType,223911
+0x00664EC0,0x0066503A,simple data,orders.cxx,,ordersdat_Highlight,223959
+0x00665040,0x006650FD,simple data,orders.cxx,,ordersdat_CanBeInterrupted,224055
+0x00665100,0x006651BD,simple data,orders.cxx,,ordersdat_Unknown7,224103
+0x006651C0,0x0066527D,simple data,orders.cxx,,ordersdat_Unknown9,224151
+0x00665280,0x006653FA,simple data,orders.cxx,,ordersdat_label,224199
+0x00665400,0x006654BD,simple data,orders.cxx,gubOrderThingyRemap,ordersdat_Obscured,224295
+0x006654C0,0x0066557D,simple data,orders.cxx,,ordersdat_CanBeObstructed,224343
+0x00665580,0x006656FA,simple data,orders.cxx,guwOrdDepIndex,,224391
+0x00665700,0x006657BD,simple data,orders.cxx,,ordersdat_CanBeQueued,224487
+0x006657C0,0x0066587D,simple data,orders.cxx,,ordersdat_Unused5,224535
+0x00665880,0x0066593D,simple data,orders.cxx,gubOrderWeapon,,224583
+0x00665940,0x006659FD,simple data,orders.cxx,gubOrderBackground,,224631
+0x00665A00,0x00665ABD,simple data,orders.cxx,,ordersdat_Unused3,224679
+0x00665AC0,0x00665C43,readonly,sprites.cxx,,SpritesDAT_SelCircleImage,224727
+0x00665C48,0x00665E4D,simple data,sprites.cxx,,SpritesDAT_IsVisible,224825
+0x00665E50,0x00665FD3,readonly,sprites.cxx,,spritesDAT_HealthBarSize,224955
+0x00665FD8,0x0066615B,readonly,sprites.cxx,,SpritesDAT_SelCircleOffset,225053
+0x00666160,0x0066656A,backed by code,sprites.cxx,,SpritesDAT_ImageID,225151
+0x00666570,0x00666775,simple data,sprites.cxx,gubSpriteCanBeHit,SpritesDAT_Unknown2,225411
+0x00666778,0x00667714,readonly,images.cxx,,ImagesLandingDustOverlay,225541
+0x00667718,0x00667AFF,simple data,images.cxx,,imagesDrawifCloaked,226541
+0x00667B00,0x00668A9C,readonly,images.cxx,,imagesSpecialOverlay,226791
+0x00668AA0,0x00669A3C,readonly,images.cxx,,imagesGRP,227791
+0x00669A40,0x00669E27,simple data,images.cxx,gubImageColorShift,,228791
+0x00669E28,0x0066A20F,backed by code,images.cxx,gubImageRLE,,229041
+0x0066A210,0x0066B1AC,readonly,images.cxx,,imagesDamageOverlay,229291
+0x0066B1B0,0x0066C14C,readonly,images.cxx,,imagesAttackOverlay,230291
+0x0066C150,0x0066C537,simple data,images.cxx,,imagesClickable,231291
+0x0066C538,0x0066D4D4,readonly,images.cxx,,imagesShieldOverlay,231541
+0x0066D4D8,0x0066D8BF,simple data,images.cxx,gubImageUseScript,,232541
+0x0066D8C0,0x0066E85C,readonly,images.cxx,,ImagesLiftoffOverlay,232791
+0x0066E860,0x0066EC47,simple data,images.cxx,,imagesGFXTurns,233791
+0x0066EC48,0x0066FBE4,backed by code,images.cxx,,imagesIscriptID,234041
+0x0066FD0C,0x0066FD10,simple data,,scratch,,235114
+0x0066FF78,0x006769B8,readonly,CUnitBounds.cpp,g_pos_sort_x,unitFinderX,235269
+0x0068AC74,0x0068AC75,simple data,statport.cpp,sgbStatPortUpdate,needsUnitPortraitUpdate,262724
+0x0068AC8C,0x0068AC90,backed by code,statport.cpp,gStatPortrait_g,pStatPortDlg,262730
+0x0068C104,0x0068C108,backed by code,SAI_Scripts.cpp,gpAIScript_g,hAIScript,264040
+0x0068C108,0x0068C10C,backed by code,SAI_Scripts.cpp,gpBWScript_g,hBWScript,264041
+0x0068C10C,0x0068C13E,simple data,textbox.cpp,sgszToPlayerPrompt,textBoxMessage?,264042
+0x0068C140,0x0068C144,backed by code,textbox.cpp,sgpTextBoxDlg,pTextBoxDlg,264055
+0x0068C144,0x0068C145,simple data,textbox.cpp,gbInMsgMode,sendMessageType,264056
+0x0068C148,0x0068C14C,backed by code,statcmd.cpp,sgpStatCmdDlg,pStatBtnDialog_0,264057
+0x0068C14C,0x0068C14E,simple data,statcmd.cpp,sgCard,current buttonset?,264058
+0x0068C1E0,0x0068C1E4,simple data,statcmd.cpp,gpCmdIcons,cmdiconsHandle,264095
+0x0068C1F0,0x0068C1F4,backed by code,statdata.cpp,sgpStatDataDlg,pStatDataDialog,264099
+0x0068C1F4,0x0068C1F8,backed by code,statdata.cpp,sgpTransWires,hTranWireGrp,264100
+0x0068C1FC,0x0068C200,backed by code,statdata.cpp,sgpMultSelWires,hGrpWireGrp,264102
+0x0068C204,0x0068C208,backed by code,statwire.cpp,sgpWireFrames,hWireframGrp,264104
+0x0068C208,0x0068C220,backed by code,statwire.cpp,,twirePcxPalette,264105
+0x0068C224,0x0068C228,backed by code,statmisc.cpp,sgpStatMiscDlg,statF10_Dialog,264112
+0x0068C234,0x0068C238,backed by code,statres.cpp,sgpStatResDlg,,264116
+0x0068C238,0x0068C23C,readonly,statres.cpp,gpIconsGrp,,264117
+0x006BB210,0x006BB930,simple data,TAI_AreaStrength.cpp,,"precomputed_unit_threat_score_g, unitTypeAIStrength",312235
+0x006BD3D0,0x006BEE64,readonly,CUnitFind.cpp,g_find_arr_flag,"unitFinderFlags, Array of per-unit flags indicating whether a particular unit index is found by the unit finder (set by region checking functions).",314395
+0x006C9858,0x006C9929,simple data,flingy.cxx,gubFlingyMoveType,Flingy_MoveControl,326973
+0x006C9930,0x006C9C74,simple data,flingy.cxx,gxFlingySlow,Flingy_HaltDistance,327027
+0x006C9C78,0x006C9E1A,simple data,flingy.cxx,gxFlingyAccel,Flingy_Acceleration,327237
+0x006C9E20,0x006C9EF1,simple data,flingy.cxx,gubFlingyMaxTurn,Flingy_TurnRadius,327343
+0x006C9EF8,0x006CA23C,simple data,flingy.cxx,gxFlingyMaxVel,Flingy_TopSpeed,327397
+0x006CA240,0x006CA311,simple data,flingy.cxx,gubFlingyMinBank,Flingy_Unused,327607
+0x006CA318,0x006CA4BA,simple data,flingy.cxx,guwFlingySprite,Flingy_SpriteID,327661
+0x006CA4BC,0x006CA4EC,simple data,,,AISuppliesReserve,327766
+0x006CA4EC,0x006CA51C,simple data,,,AIGasReserve,327778
+0x006CA51C,0x006CA54C,simple data,,,AIOreReserve,327790
+0x006CA550,0x006CA64C,backed by code,,,SHA?,327803
+0x006CA64C,0x006CA664,backed by code,,,SHA?,327866
+0x006CA94C,0x006CA97C,simple data,statdraw.cpp,sgwSavedHP,selGroupHp,328058
+0x006CAF98,0x006CAF9C,simple data,,gNumBins,path something,328461
+0x006CAFA0,0x006CD9A0,simple data,,gBins,path something,328463
+0x006CD9A0,0x006CDBA4,simple data,,gBinLeft,path something,331151
+0x006CDBA8,0x006CDDAC,simple data,,gBinIX,path something,331281
+0x006CDDC0,0x006CDDC2,simple data,gds/mou_win.cpp,gwMouseFlags,keyMod,331415
+0x006CDDC4,0x006CDDCC,simple data,gds/mou_win.cpp,gCursorPos_g,MousePointer,331416
+0x006CDFD4,0x006CDFF8,backed by code,gds/inifile.cpp,gOptions,optionList,331548
+0x006CE000,0x006CE0C0,backed by code,gds/font.cpp,???,tFontGame_ImageData,331559
+0x006CE320,0x006CE720,backed by code,gds/palette.cpp,_vid_pal,Primary palette,331759
+0x006CE720,0x006CEB20,backed by code,gds/palette.cpp,_vid_old,,332015
+0x006CEB20,0x006CEB3A,backed by code,gds/palette.cpp,,"sgbPens_g, palette index for pen colours",332271
+0x006CEFF0,0x006CEFF8,readonly,gds/image.cpp,_img_draw_buf,,332579
+0x006CEFF8,0x006CF4A8,backed by code,gds/image.cpp,gbInvalMap,refreshWindowBoxes,332581
+0x006D0F14,0x006D0F18,simple data,replay.cpp,gbDemoMode,,334572
+0x006D0F24,0x006D0F28,readonly,replay.cpp,sgpMap,pChkFile,334576
+0x006D0F30,0x006D11A9,readonly,replay.cpp,sgReplayHeader_g,replay header struct,334579
+0x006D1200,0x006D1204,backed by code,CImage.cpp,sgpScripts,iscript.bin pointer,334759
+0x006D1234,0x006D1238,simple data,opt_dlgs.cpp,sgpRespondFcn,lastBINDLGMenuFXN,334772
+0x006D1260,0x006D1264,backed by code,gamemap.cpp,gpSquareMap,tile flags,334783
+0x006D5A6C,0x006D5A70,simple data,cheat.cpp,glCheatBits,gameCheatFlags,339394
+0x006D5CD8,0x006D5CDC,backed by code,repulse.cpp,sgpRpMap,repulseHandle,339549
+0x006D5E14,0x006D5E18,backed by code,gds/vidblit.cpp,sgConsoleMask_g,,339628
+0x006D5E1C,0x006D5E20,simple data,gds/vidblit.cpp,gbPaintInvalid_g,wantNewPalette,339630
+0x006D5EC8,0x006D5ECC,backed by code,creep.cpp,gpMtxInfo,cv5FileHandle,339673
+0x006D6394,0x006D63AC,backed by code,gluChat.cpp,,szGamePassword,339980
+0x1505E670,0x1505EA70,readonly,storm.dll,,Storm graphics palette,86724803
+0x19018F38,0x19018F3C,backed by code,battle.snp,,Unknown battle.snp code hook,103430901
+0x190452C8,0x19045348,backed by code,battle.snp,,Unknown text,103476185
+0x19046134,0x19046138,simple data,battle.snp,,??,103477108
+0x19046138,0x19046238,backed by code,battle.snp,,??,103477109
+0x190913D8,0x190913DC,simple data,battle.snp,,Invalid memory location???,103554077
